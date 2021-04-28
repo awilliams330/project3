@@ -20,6 +20,12 @@ h1 {
   padding: 80px;
 }
 
+h2 {
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 45px;
+  color: white;
+}
+
 .footer > p {
   color: black;
   font-family: 'Josefin Sans', sans-serif;
@@ -33,7 +39,15 @@ h1 {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 20px;
   color: white;
+  text-align: left;
   }
+
+p {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
 
 input,
 textarea
@@ -121,4 +135,19 @@ form {
   width: 100%;
   height: 60px;
   background: #E5E5E5;
+}
+
+.about-image {
+  float: left;
+  padding-right: 40px;
+}
+
+.about-image > p {
+  text-align: left;
+  padding-left: 55px;
+}
+
+.about > p {
+  text-align: left;
+  padding-top: 30px;
 }
