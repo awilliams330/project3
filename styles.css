@@ -2,5 +2,108 @@
   margin: 0;
   padding: 0;
   border: 0;
-  box-sizing: border-box;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+body {
+  background: #0D4260;
+}
+
+h1 {
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  padding: 80px;
+}
+
+
+p {
+  padding-top: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  color: white;
+  }
+
+input,
+textarea
+ {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  background: #D8D8D8;
+  border: 1px solid #000000;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+div {
+  padding-left: 60px;
+}
+
+
+input[type=submit] {
+  background: #F58B8B;
+  font-weight: bold;
+}
+
+
+.menu > ul > li {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  width: 24%;
+  text-align: center;
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 30px;
+  padding: 5px;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.menu ul li a {
+  color: black;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.menu ul li a:hover {
+  color: #F58B8B;
+  transition: .3s;
+}
+
+.menu {
+  max-width: 100%;
+  margin: 0 auto;
+  background: #E5E5E5;
+  padding-left: 10px;
+}
+
+img {
+  display: inline;
+  min-width: 200px;
+}
+
+form {
+  position: relative;
+  right: 100px;
+  float: left;
+}
+
+.my-info {
+  padding-left: 60px;
+  min-width: 300px;
+}
+
+.my-info > p > a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
 }
