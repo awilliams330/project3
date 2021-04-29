@@ -156,6 +156,12 @@ form {
   animation: float 2s linear;
 }
 
+.intro {
+  margin: 0 auto;
+  padding-top: 400px;
+  animation: fade 7s;
+}
+
 
 
 
@@ -165,5 +171,14 @@ form {
   }
   to {
     left: 0px;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
