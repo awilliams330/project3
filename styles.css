@@ -72,7 +72,6 @@ input[type=submit] {
   font-weight: bold;
 }
 
-
 .menu > ul > li {
   display: inline-block;
   position: relative;
@@ -83,7 +82,6 @@ input[type=submit] {
   font-size: 30px;
   padding: 5px;
   text-decoration: none;
-  transition: .3s;
 }
 
 .menu ul li a {
@@ -91,13 +89,12 @@ input[type=submit] {
   display: block;
   padding: 10px;
   text-decoration: none;
-  transition: .3s;
 }
 
 .menu ul li a:hover {
   color: #F58B8B;
-  transition: .3s;
 }
+
 
 .menu {
   max-width: 100%;
@@ -150,4 +147,23 @@ form {
 .about > p {
   text-align: left;
   padding-top: 30px;
+}
+
+.home-logo {
+  position: absolute;
+  margin-left: 500px;
+  margin-right: 500px;
+  animation: float 2s linear;
+}
+
+
+
+
+@keyframes float {
+  from {
+    left: -900px;
+  }
+  to {
+    left: 0px;
+  }
 }
