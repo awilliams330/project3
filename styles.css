@@ -26,6 +26,21 @@ h2 {
   color: white;
 }
 
+.footer > p {
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.my-info > p {
+  padding-top: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+  }
 
 p {
   color: white;
@@ -55,17 +70,6 @@ div {
 input[type=submit] {
   background: #F58B8B;
   font-weight: bold;
-}
-
-img {
-  display: inline;
-  min-width: 200px;
-}
-
-form {
-  position: relative;
-  right: 100px;
-  float: left;
 }
 
 .menu > ul > li {
@@ -99,6 +103,16 @@ form {
   padding-left: 10px;
 }
 
+img {
+  display: inline;
+  min-width: 200px;
+}
+
+form {
+  position: relative;
+  right: 100px;
+  float: left;
+}
 
 .my-info {
   padding-left: 60px;
@@ -112,15 +126,6 @@ form {
   text-decoration: none;
 }
 
-.my-info > p {
-  padding-top: 10px;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 20px;
-  color: white;
-  text-align: left;
-  }
-
-
 .footer {
   position: absolute;
   bottom: 0;
@@ -128,15 +133,6 @@ form {
   height: 60px;
   background: #E5E5E5;
 }
-
-.footer > p {
-  color: black;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 20px;
-  text-align: center;
-  padding: 20px;
-}
-
 
 .about-image {
   float: left;
@@ -166,17 +162,15 @@ form {
   animation: fade 7s;
 }
 
-.gallery {
-  text-align: center;
-}
-
 div.gallery img {
   width: 300px;
   height: 200px;
   padding-left: 10px;
 }
 
-
+.gallery {
+  text-align: center;
+}
 
 
 
