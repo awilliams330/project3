@@ -62,10 +62,10 @@
 <header>
   <nav class="menu">
     <ul>
-      <li class="menu-item"><a href="#">HOME</a></li>
-      <li class="menu-item"><a href="#">ABOUT</a></li>
-      <li class="menu-item"><a href="#">GALLERY</a></li>
-      <li class="menu-item"><a href="index.html">CONTACT</a></li>
+      <li class="menu-item"><a href="index.html">HOME</a></li>
+      <li class="menu-item"><a href="about.html">ABOUT</a></li>
+      <li class="menu-item"><a href="gallery.html">GALLERY</a></li>
+      <li class="menu-item"><a href="contact.html">CONTACT</a></li>
     </ul>
   </nav>
 </header>
